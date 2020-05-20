@@ -1,0 +1,17 @@
+Mini-Project 3:
+
+Purpose:
+
+The purpose of this project is to provide non-trivial practice in the use of Java object-oriented GUI programming features to implement an object-oriented GUI design and have a bit of fun doing it.
+
+Program Specification:
+
+This project involves implementing a Java program that performs a calculation of payments associated with loans. The program shall allow a user to enter the following data: annual interest rate, the term of the loan (i.e., number of years), and the loan amount. A GUI like the one below must be used. When the user presses the calculate button, the monthly payment and total amount of payments shall be displayed. The formula for computing the monthly payment (P) is:
+
+(i ∗ A) / 1−(1+ i)-n
+
+where i = periodic interest rate, A = amount of loan, n = number of compounding periods (12).
+
+For example, if the annual interest rate is 5 percent, the term of the loan is 2 years, and the loan amount is $2,000, and interest is compounded monthly:
+
+i = .05/12 = .00417	n = 2 * 12 = 24	P = $87.74	Total Payment = 24 * $87.74
